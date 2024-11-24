@@ -121,7 +121,7 @@ export default function Home({ searchParams }: PageProps) {
 
             {gameId !== "1099928310" && (
               <a 
-                href="/?id=1099928310"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block transform transition-transform hover:scale-105"
@@ -139,6 +139,59 @@ export default function Home({ searchParams }: PageProps) {
                 </div>
               </a>
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* How to Play Section */}
+      <section className="py-12 px-4 bg-white/5">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center text-white">How to Play</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <div className="text-4xl mb-4 text-center">👆</div>
+              <h3 className="text-xl font-bold mb-3 text-white text-center">1. Select Characters</h3>
+              <p className="text-purple-100">Choose from different musical characters, each with their unique sound and style. Drag them onto the stage to start creating your beats.</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <div className="text-4xl mb-4 text-center">🎵</div>
+              <h3 className="text-xl font-bold mb-3 text-white text-center">2. Mix and Match</h3>
+              <p className="text-purple-100">Combine different characters to create unique rhythms and melodies. Experiment with different combinations to find your perfect sound.</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <div className="text-4xl mb-4 text-center">💫</div>
+              <h3 className="text-xl font-bold mb-3 text-white text-center">3. Create Magic</h3>
+              <p className="text-purple-100">Unlock special animations and bonus content by discovering the right combinations. Record and share your musical creations with friends!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-12 px-4">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center text-white">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <h3 className="text-xl font-bold mb-3 text-white">What is Incredibox Sprunki?</h3>
+              <p className="text-purple-100">Incredibox Sprunki is an interactive music game where you can create your own beats and melodies by combining different musical characters. It's a fun and creative way to make music without any prior musical experience.</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <h3 className="text-xl font-bold mb-3 text-white">Do I need musical experience to play?</h3>
+              <p className="text-purple-100">Not at all! Incredibox Sprunki is designed to be intuitive and fun for everyone. Just drag and drop characters to create music - no musical knowledge required!</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <h3 className="text-xl font-bold mb-3 text-white">Can I save my creations?</h3>
+              <p className="text-purple-100">Yes! You can record your musical creations and share them with others. Each creation gets a unique code that others can use to listen to your music.</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <h3 className="text-xl font-bold mb-3 text-white">What's different about each version?</h3>
+              <p className="text-purple-100">Each version of Sprunki (Adventure, Remix, Classic) offers different musical styles, characters, and special animations. Try them all to discover your favorite!</p>
+            </div>
+            <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+              <h3 className="text-xl font-bold mb-3 text-white">Is there a mobile version?</h3>
+              <p className="text-purple-100">Currently, Incredibox Sprunki works best on desktop browsers. We recommend using a computer for the optimal music-making experience.</p>
+            </div>
           </div>
         </div>
       </section>
