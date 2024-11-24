@@ -9,14 +9,15 @@ export const metadata = {
 };
 
 interface PageProps {
-  searchParams?: {
+  searchParams?: Promise<{
     id?: string;
-  };
+  }>;
 }
 
-export default function Home({ searchParams }: PageProps) {
+export default async function Home({ searchParams }: PageProps) {
   // Use the provided ID or fallback to default
-  const gameId = searchParams?.id || "1099928310";
+  const { id: gameId = "1099928310" } = await searchParams || {};
+  // const gameId = searchParams?.id || "1099928310";
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 to-indigo-900">
