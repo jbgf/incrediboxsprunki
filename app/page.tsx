@@ -159,19 +159,19 @@ export default async function Home({ searchParams }: PageProps) {
             <div className="bg-white/10 rounded-lg overflow-hidden backdrop-blur-sm">
               <div className="aspect-video relative">
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/Fzb-DEwithk" title="Incredibox Sprunki Night Time VS All Can&#39;t Sleep | Normal VS Horror" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </div>
             
             <div className="bg-white/10 rounded-lg overflow-hidden backdrop-blur-sm">
               <div className="aspect-video relative">
-              <iframe width="1280" height="720" src="https://www.youtube.com/embed/dW9szUGEdGA" title="Incredibox Sprunki - Fun Time! (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/dW9szUGEdGA" title="Incredibox Sprunki - Fun Time! (Official Music Video)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </div>
             
             <div className="bg-white/10 rounded-lg overflow-hidden backdrop-blur-sm">
               <div className="aspect-video relative">
-              <iframe width="1280" height="720" src="https://www.youtube.com/embed/4SvdT8KJaxI" title="Incredibox Sprunki - Fun Bot Return to PHASE 1 | Incredibox Sprunki Animation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/4SvdT8KJaxI" title="Incredibox Sprunki - Fun Bot Return to PHASE 1 | Incredibox Sprunki Animation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </div>
           </div>
