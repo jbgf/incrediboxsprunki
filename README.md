@@ -23,7 +23,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ### GA
 change the gaId.
-
+```
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -40,3 +40,4 @@ export default function RootLayout({
     </html>
   );
 }
+```
