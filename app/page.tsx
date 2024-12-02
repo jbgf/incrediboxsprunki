@@ -143,7 +143,40 @@ export default async function Home({ searchParams }: PageProps) {
           </div>
         </div>
       </section>
-
+      {/* Highlights Section */}
+      <section className="py-12 px-4">
+        <div className="container mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 text-transparent bg-clip-text">
+              Featured Player Creations
+            </h2>
+            <p className="text-lg text-purple-200 max-w-2xl mx-auto">
+              Explore infinite creativity and experience amazing works from our players. Every note tells a unique story, every melody begins a new adventure.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-white/10 rounded-lg overflow-hidden backdrop-blur-sm">
+              <div className="aspect-video relative">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/Fzb-DEwithk" title="Incredibox Sprunki Night Time VS All Can&#39;t Sleep | Normal VS Horror" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+            
+            <div className="bg-white/10 rounded-lg overflow-hidden backdrop-blur-sm">
+              <div className="aspect-video relative">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/dW9szUGEdGA" title="Incredibox Sprunki - Fun Time! (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+            
+            <div className="bg-white/10 rounded-lg overflow-hidden backdrop-blur-sm">
+              <div className="aspect-video relative">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/4SvdT8KJaxI" title="Incredibox Sprunki - Fun Bot Return to PHASE 1 | Incredibox Sprunki Animation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* How to Play Section */}
       <section className="py-12 px-4 bg-white/5">
         <div className="container mx-auto">
